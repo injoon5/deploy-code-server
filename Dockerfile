@@ -44,6 +44,7 @@ ENTRYPOINT ["/usr/bin/deploy-container-entrypoint.sh"]
 # You can add custom software and dependencies for your environment here. Some examples:
 
 RUN code-server --install-extension esbenp.prettier-vscode
+RUN code-server --install-extension GitHub.github-vscode-theme
 RUN sudo apt-get install -y build-essential
 
 
