@@ -45,6 +45,7 @@ ENTRYPOINT ["/usr/bin/deploy-container-entrypoint.sh"]
 
 RUN code-server --install-extension esbenp.prettier-vscode
 RUN code-server --install-extension GitHub.github-vscode-theme
+RUN code-server --install-extension bradlc.vscode-tailwindcss
 RUN sudo apt-get install -y build-essential
 
 
