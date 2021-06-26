@@ -51,6 +51,3 @@ RUN sudo apt-get install -y build-essential
 # Install NodeJS
 RUN sudo curl -fsSL https://deb.nodesource.com/setup_15.x | sudo bash -
 RUN sudo apt-get install -y nodejs
-
-RUN sudo apt-get update
-RUN sudo apt-get install python3.6
